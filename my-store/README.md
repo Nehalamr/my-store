@@ -11,22 +11,37 @@ It uses [FakeStoreAPI](https://fakestoreapi.com/) to fetch and display products 
 - React Router DOM
 - Bootstrap
 - Axios
-- Vite (or Create React App)
+- Vite
 
 ---
 
 ## 📂 Project Structure
 
-src/
-├── components/
-│   └── Navbar.jsx  
-├── pages/
-│   ├── Home.jsx  
-│   ├── ProductList.jsx  
-│   ├── ProductDetails.jsx  
-│   └── NotFound.jsx  
-├── App.jsx  
-└── index.css  
+my-store/
+├── public/
+├── screenshots/
+│ ├── home.png
+│ ├── products.png
+│ ├── details.png
+│ └── 404.png
+├── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ └── Footer.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── ProductList.jsx
+│ │ ├── ProductDetails.jsx
+│ │ └── NotFound.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── README.md
+└── package.json
+
+yaml
+Copy
+Edit
 
 ---
 
@@ -43,7 +58,7 @@ src/
 
 ## 📷 Screenshots
 
-> Put these in a folder called `/screenshots`
+> Screenshots are located in the `/screenshots` folder.
 
 - ![Home](./screenshots/home.png)
 - ![Products](./screenshots/products.png)
@@ -58,4 +73,4 @@ src/
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd my-store
 npm install
-npm run dev  # or npm start
+npm run dev
